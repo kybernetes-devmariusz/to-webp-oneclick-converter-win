@@ -1,0 +1,1 @@
+for %f in (./input/*.jpg ./input/*.png) do cwebp.exe -q 80 ./input/%f -o ./output/%f.webp
